@@ -1,0 +1,37 @@
+# Dependencies and virtual environments
+node_modules/
+frontend/node_modules/
+backend/.venv/
+.venv/
+.venv-*/
+venv/
+
+# Build output and caches
+dist/
+frontend/dist/
+frontend/.next/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tsbuildinfo
+
+# Local state and logs
+backend/data/*.db
+backend/data/*.db-*
+*.sqlite
+*.sqlite3
+logs/
+*.log
+*.pid
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# OS/editor
+.DS_Store
+
+# TypeScript / Next generated metadata
+*.tsbuildinfo
